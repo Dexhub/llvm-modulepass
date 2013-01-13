@@ -1,4 +1,8 @@
 llvm-modulepass
 ===============
+LLVM PRACTISE PROGRAM
 
-PRACTISE: LLVM Module Pass and how to insert print instructions and counting the total number of print instructions in the program
+This poject is aimed on practicing the module pass and devicing a pass that counts the total number of print instrunctions in the progam.
+
+Programmer: Himanshu Shah
+Contact: Himanshu1410@live.com
