@@ -10,7 +10,6 @@
 #include "llvm/ADT/APInt.h"
 #include "llvm/ADT/Twine.h"
 #include "llvm/IR/GlobalVariable.h"
-
 #include "llvm/IR/Function.h"
 #include "llvm/IR/Instructions.h"
 #include "llvm/IR/IRBuilder.h"
@@ -104,7 +103,7 @@ static RegisterPass<ModulePassDemo> X("ModulePassDemo", "Simple Module Pass prog
       const Type *Void = Type::getVoidTy(Context);
       
 
-    //  MopFn = M.getOrInsertFunction("mop", Void,                              UIntPtr, Type::getInt32Ty(Context),Type::getInt32Ty(Context),                               (Type*)0);
+    //  MopFn = M.getOrInsertFunction("mop", Void, UIntPtr, Type::getInt32Ty(Context),Type::getInt32Ty(Context),(Type*)0);
       //Function *tmp = cast<Function>(MopFn);
      // tmp->setCallingConv(CallingConv::C);
 for (Module::iterator F = M.begin(), E = M.end(); F != E; ++F) {
