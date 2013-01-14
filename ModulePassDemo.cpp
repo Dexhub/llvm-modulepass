@@ -18,7 +18,7 @@
 #include "llvm/ADT/Statistic.h"
 
 
-
+//FDFSDGFDGREGTRYRTYR
 using namespace llvm;
    STATISTIC(PrintCounter, "Number of printf functions calls");
    STATISTIC(LoadCounter, "Number of Load instrunction");
